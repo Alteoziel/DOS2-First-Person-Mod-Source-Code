@@ -1,0 +1,93 @@
+{
+
+  "game": {
+
+    "processName": "EoCApp",
+
+    "moduleName": "EoCApp.exe"
+
+  },
+
+  "cameraRoot": {
+
+    "type": "pointerChain",
+
+    "moduleOffsetHex": "0x2959898",
+
+    "offsetsHex": ["0x0"]
+
+  },
+
+  "fields": {
+
+    "MinDistance": { "offsetHex": "0xC40", "type": "float" },
+
+    "MinDistance2": { "offsetHex": "0xC4C", "type": "float" },
+
+    "MaxDistance": { "offsetHex": "0xC44", "type": "float" },
+
+    "MaxDistance2": { "offsetHex": "0xC48", "type": "float" },
+
+    "ScrollSpeed": { "offsetHex": "0xC6C", "type": "float" },
+
+    "ZoomSpeed": { "offsetHex": "0xC30", "type": "float" },
+
+    "Fov": { "offsetHex": "0xC74", "type": "float" },
+
+    "PitchMax": { "offsetHex": "0xCC0", "type": "float" },
+
+    "PitchMin": { "offsetHex": "0xCCC", "type": "float" },
+
+    "CameraAngle": { "offsetHex": "0xCC8", "type": "float" },
+
+    "CameraAngle2": { "offsetHex": "0xCD0", "type": "float" },
+
+    "PitchMaxC": { "offsetHex": "0xCD8", "type": "float" },
+
+    "PitchMinC": { "offsetHex": "0xCE4", "type": "float" },
+
+    "TacticalViewMin": { "offsetHex": "0xCB0", "type": "float" },
+
+    "TacticalViewMax": { "offsetHex": "0xCB4", "type": "float" },
+
+    "HudByte": { "offsetHex": "0x19", "type": "byte" }
+
+  },
+
+  "fpHeight": {
+
+    "primaryOffsetHex": "0x0",
+
+    "eyeLiftMeters": 0.8,
+
+    "liftScale": 1.0,
+
+    "applyBandLift": true
+
+  },
+
+  "fpLook": {
+
+    "sensitivity": 13.0,
+
+    "scrollSpeed": 0,
+
+    "zoomSpeed": 0,
+
+    "fov": 70,
+
+    "nearMinDistance": 0.06,
+
+    "nearMaxDistance": 0.07,
+
+    "pitchNeutralOffset": -0.06,
+
+    "pitchDownOffset": -0.02,
+
+    "pitchUpOffset": 0.02
+
+  }
+
+}
+
+

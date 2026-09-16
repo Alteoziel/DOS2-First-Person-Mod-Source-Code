@@ -1,0 +1,22 @@
+# Compiled / release artifacts
+*.exe
+*.dll
+*.pdb
+*.zip
+
+# .NET build output
+**/bin/
+**/obj/
+*.user
+
+# Local snapshots / research (not the published source tree)
+Developer/Backup - Current Setup/
+Developer/Safe State - First Person Mod/
+
+# Cheat Engine table (offset research, not program source)
+*.CT
+*.ct
+
+# OS
+Thumbs.db
+Desktop.ini

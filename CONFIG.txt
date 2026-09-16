@@ -1,0 +1,40 @@
+================================================================================
+  camera_offsets.json  (in the Play folder, same folder as the .exe)
+================================================================================
+
+Edit with Notepad. Save, then LB+B off/on in-game to apply.
+
+fpHeight
+--------
+  eyeLiftMeters     Head height in first person (meters). Try 0.35 - 0.5.
+  primaryOffsetHex  Set by "Set FP height" sweep (usually leave as saved).
+
+fpLook
+------
+  fov               Field of view (degrees). Lower = narrower (e.g. 55-65).
+                    Higher = wider (e.g. 75). Default if 0: 70.
+
+  nearMinDistance   Zoom "in" (camera distance). Default if 0: 0.06.
+  nearMaxDistance   Must be slightly above nearMinDistance.
+                    Going too low can cause gray screen glitches.
+
+  pitchNeutralOffset   Look angle when stick is centered (radians).
+                       Affects rest view after stick up AND down in current build.
+
+  pitchUpOffset        Extra pitch while holding stick UP (radians).
+
+  pitchDownOffset      Extra pitch while holding stick DOWN (radians).
+
+  sensitivity       Reserved / future use for stick turn speed.
+
+  scrollSpeed       0 = don't change. Mouse edge-pan speed if set.
+
+  zoomSpeed         0 = don't change. Mouse zoom speed if set.
+
+TIPS
+----
+  - Change one value at a time.
+  - Keep nearMaxDistance at least 0.01 above nearMinDistance.
+  - You cannot zoom in enough to remove hands; use Optional - Hide Body Mod.
+
+================================================================================
